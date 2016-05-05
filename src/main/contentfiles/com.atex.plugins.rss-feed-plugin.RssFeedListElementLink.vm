@@ -1,0 +1,2 @@
+#set($link = "#link({'contentId': $content.contentId, 'htmlEncodeLink': 'true', 'requestAttribs': {'localLinksEnabled': 'false'}})")
+<img style="width:16px;height:16px;" src="#file({'contentId': $filesContentId, 'filename':'/rss.png'})" alt="Feed"><a title="$!content.name" href="$!link"> $!content.name</a>
